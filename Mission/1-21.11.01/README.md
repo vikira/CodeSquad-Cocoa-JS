@@ -1,10 +1,12 @@
 # [Mission 1] 다각형의 넓이 구하기(21.11.01)
 
+
+
 ## 1. 다음처럼 동작하는 getArea함수를 만든다.
 
 getArea 함수를 사용하면, 모든 넓이 값을 얻을 수 있다.
 
-```
+```javascript
 //getArea('circle', 10);
 >  원의 넓이 값출력
 
@@ -25,7 +27,7 @@ getArea 함수를 사용하면, 모든 넓이 값을 얻을 수 있다.
 프로그래밍에서 로깅(logging)은 프로그램의 수행과정이나 결과를 기록하는 것을 말한다.
 지금까지 호출된 함수가 무엇인지 알려주는 printExecutionSequence함수를 만들자.
 
-```
+```shell
 getCircle() 
 getCircle() 
 getArea('circle',2) 
@@ -66,7 +68,7 @@ printExecutionSequence()  //printExecutionSequence가 불려지면, 함수 호�
 
 
 
-## 학습 체크포인트
+## ✔학습 체크포인트
 
 - Node.js를 통해서 JavaScript개발을 할 수 있다
 - 함수의 역할은 한가지에 집중하고 있다.
