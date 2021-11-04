@@ -12,9 +12,27 @@
 #### 문제1) T개의 숫자까지 M명이 말한다고 할때 이를 모두 출력하는 프로그램을 만든다.
 
 ```javascript
-solution(2,4,2) //2진수, 4개의 숫자까지, 2명이 말할때
-
-> ["0", "1", "1", "0", "1", "1", "1", "0", "0", "1", "0", "1", "1", "1", "0", "1", "1", "1"]
+solution(2, 4, 2) > //2진수, 4개의 숫자까지, 2명이 말할때
+  [
+    '0',
+    '1',
+    '1',
+    '0',
+    '1',
+    '1',
+    '1',
+    '0',
+    '0',
+    '1',
+    '0',
+    '1',
+    '1',
+    '1',
+    '0',
+    '1',
+    '1',
+    '1',
+  ];
 ```
 
 - parseInt 함수 사용가능
@@ -35,10 +53,6 @@ solution(2,4,2) //2진수, 4개의 숫자까지, 2명이 말할때
 - 자바스크립트로 진법변환하는 방법을 안다.
 - 배열의 순회하고 추가/삭제 하는 방법을 안다
 
-
-
-
-
 # Mission 2 [배열다루기]
 
 #### 1. factorial 함수
@@ -46,8 +60,7 @@ solution(2,4,2) //2진수, 4개의 숫자까지, 2명이 말할때
 임의의 숫자(m)를 입력받아 1부터 m까지의 factorial 값을 배열로 담아서 반환하는 함수 만들기.
 
 ```javascript
-calculate(4)
-> [1,2,6,24]
+calculate(4) > [1, 2, 6, 24];
 ```
 
 #### 2. 배열 거르기
@@ -61,9 +74,8 @@ calculate(4)
   - forEach,filter, map등의 고차함수를 사용한 버전 만들기
 
 ```javascript
-const peoples = ["crong!@#", "honux5", "sarah#", "hea3d", "zello", "5lucas"];
-filterId(peoples)
-> ["honux", "head", "zello", "lucas"]
+const peoples = ['crong!@#', 'honux5', 'sarah#', 'hea3d', 'zello', '5lucas'];
+filterId(peoples) > ['honux', 'head', 'zello', 'lucas'];
 ```
 
 #### 3. 평균 구하기
@@ -75,7 +87,12 @@ filterId(peoples)
 - 각 학생의 평균점수(1)와 모든 학생의 최고점수의 평균점수(2)를 출력하라.
 
 ```javascript
-const grades = [[88,76,77], [33,44,44], [90,100,94], [30,44,98]];
+const grades = [
+  [88, 76, 77],
+  [33, 44, 44],
+  [90, 100, 94],
+  [30, 44, 98],
+];
 ```
 
 #### 4. 배열 만들기
@@ -87,7 +104,7 @@ https://gist.github.com/crongro/ade2c3f74417fc202c8097214c965f27
 
 ```javascript
 //실행결과
-["width", "height", "hOffset", "vOffset", "size", "hOffset", "vOffset"]
+['width', 'height', 'hOffset', 'vOffset', 'size', 'hOffset', 'vOffset'];
 ```
 
 #### 5. 배열 결과 출력
@@ -120,14 +137,9 @@ const result = myReduce(arr, (next,prev) => {...}, []);
   - 언제 유용하게 쓰일 수 있을까?
 - higher order functions은 어떻게 메서드 체이닝이 가능할까? 그 이유를 알아보자.
 
-
-
 ### 학습. 체크포인트
 
 - 고차함수가 무엇인지 안다.
 - for,while문을 사용하지 않고 배열을 iteration할 수 있다.
 - reduce 메서드를 직접 만들 수 있다.
 - JavaScript 객체를 iteration하고 객체의 속성에 접근해서 추가/변경할 수 있다.
-
-
-
