@@ -26,6 +26,7 @@ function getArea(shape, ...size) {
 //circle
 function circleArea(size) {
   if (size.length === 1) {
+    console.log(Math.PI * size[0] * size[0]);
     return Math.PI * size[0] * size[0];
   }
 
@@ -38,11 +39,13 @@ function circleArea(size) {
 
 //rectangle
 function rectArea(height, width) {
+  console.log(height * width);
   return height * width;
 }
 
 //trapezoid
 function trapezArea(top, bottom, height) {
+  console.log(((top + bottom) * height) / 2);
   return ((top + bottom) * height) / 2;
 }
 
