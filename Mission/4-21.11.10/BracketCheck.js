@@ -32,3 +32,5 @@ function bracketErrorDectect(bracket) {
 }
 
 BracketCheck(data);
+
+const calculate = new Calculate(2, 3);
